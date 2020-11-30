@@ -72,9 +72,9 @@ class Quotes extends React.PureComponent<YodaOfTheDayProps> {
 
     return (
       <div className="d-flex justify-content-between">
-        <Link className='btn btn-outline-secondary btn-sm' to={`/fetch-data/${prevStartDateIndex}`}>Previous</Link>
+        <Link className='btn btn-outline-secondary btn-sm' to={`/quotes/${prevStartDateIndex}`}>Previous</Link>
         {this.props.isLoading && <span>Loading...</span>}
-        <Link className='btn btn-outline-secondary btn-sm' to={`/fetch-data/${nextStartDateIndex}`}>Next</Link>
+        <Link className='btn btn-outline-secondary btn-sm' to={`/quotes/${nextStartDateIndex}`}>Next</Link>
       </div>
     );
   }
