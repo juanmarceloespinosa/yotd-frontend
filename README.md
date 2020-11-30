@@ -3,7 +3,7 @@
 It's a set of (not so) motivational quotes carefully curated by Master Yoda.
 A sample solution to quickly prepare a software developer in REST Services using .NET Core for the Backend and React + Redux on the Frontend. The use of TDD, OOP and the SOLID Principles is required.
 
-##This is the frontend. For the backend please go to this repository.
+##This is the frontend. For the backend please go to [this repository](https://github.com/juanmarceloespinosa/yotd).
 
 ## Technologies
   
